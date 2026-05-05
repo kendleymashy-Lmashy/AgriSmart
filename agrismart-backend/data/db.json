@@ -1,0 +1,293 @@
+{
+  "sensors": [
+    {
+      "id": "1",
+      "type": "soil_moisture",
+      "value": 32,
+      "unit": "%",
+      "timestamp": "2026-05-03T07:20:30.403Z",
+      "status": "warning",
+      "rawValue": 1024
+    },
+    {
+      "id": "2",
+      "type": "temperature",
+      "value": 27.5,
+      "unit": "C",
+      "timestamp": "2026-05-03T07:20:30.403Z",
+      "status": "normal"
+    },
+    {
+      "id": "3",
+      "type": "humidity",
+      "value": 58,
+      "unit": "%",
+      "timestamp": "2026-05-03T07:20:30.403Z",
+      "status": "normal"
+    },
+    {
+      "id": "1777792830492-847524b02b3c7",
+      "type": "soil_moisture",
+      "value": 24,
+      "unit": "%",
+      "timestamp": "2026-05-03T07:20:30.492Z",
+      "status": "warning",
+      "rawValue": 1380
+    },
+    {
+      "id": "1777792830492-fe4c7a754a782",
+      "type": "temperature",
+      "value": 28.1,
+      "unit": "C",
+      "timestamp": "2026-05-03T07:20:30.492Z",
+      "status": "normal"
+    },
+    {
+      "id": "1777792830492-f30f37126ca9e",
+      "type": "humidity",
+      "value": 61,
+      "unit": "%",
+      "timestamp": "2026-05-03T07:20:30.492Z",
+      "status": "normal"
+    }
+  ],
+  "calibration": {
+    "soilThreshold": {
+      "dry": 20,
+      "wet": 80
+    }
+  },
+  "pump": {
+    "id": "1",
+    "isRunning": true,
+    "mode": "automatic",
+    "uptime": 120,
+    "power": 5,
+    "lastCommand": "start",
+    "updatedAt": "2026-05-03T08:05:49.844Z"
+  },
+  "settings": {
+    "deviceName": "AgriSmart Node-01",
+    "location": "Harare, Zimbabwe",
+    "batteryLevel": 87,
+    "firmwareVersion": "v1.0.4",
+    "uptime": 2592000,
+    "autoMode": true,
+    "irrigationThreshold": 30,
+    "timezone": "Africa/Harare",
+    "unitSystem": "Metric"
+  },
+  "alerts": [
+    {
+      "id": "1777795548526",
+      "timestamp": "2026-05-03T08:05:48.526Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Started",
+      "message": "Irrigation pump was started manually."
+    },
+    {
+      "id": "1777795546991",
+      "timestamp": "2026-05-03T08:05:46.991Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Stopped",
+      "message": "Irrigation pump was stopped."
+    },
+    {
+      "id": "1777795545777",
+      "timestamp": "2026-05-03T08:05:45.777Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Started",
+      "message": "Irrigation pump was started manually."
+    },
+    {
+      "id": "1777795544669",
+      "timestamp": "2026-05-03T08:05:44.670Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Started",
+      "message": "Irrigation pump was started manually."
+    },
+    {
+      "id": "1777793896684",
+      "timestamp": "2026-05-03T07:38:16.684Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Started",
+      "message": "Irrigation pump was started manually."
+    },
+    {
+      "id": "1777793824608",
+      "timestamp": "2026-05-03T07:37:04.608Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Started",
+      "message": "Irrigation pump was started manually."
+    },
+    {
+      "id": "1777793821234",
+      "timestamp": "2026-05-03T07:37:01.234Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Started",
+      "message": "Irrigation pump was started manually."
+    },
+    {
+      "id": "1777793814468",
+      "timestamp": "2026-05-03T07:36:54.468Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Stopped",
+      "message": "Irrigation pump was stopped."
+    },
+    {
+      "id": "1777793812985",
+      "timestamp": "2026-05-03T07:36:52.985Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Started",
+      "message": "Irrigation pump was started manually."
+    },
+    {
+      "id": "1777793806151",
+      "timestamp": "2026-05-03T07:36:46.151Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Started",
+      "message": "Irrigation pump was started manually."
+    },
+    {
+      "id": "1777793801454",
+      "timestamp": "2026-05-03T07:36:41.454Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Started",
+      "message": "Irrigation pump was started manually."
+    },
+    {
+      "id": "1777793800797",
+      "timestamp": "2026-05-03T07:36:40.797Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Started",
+      "message": "Irrigation pump was started manually."
+    },
+    {
+      "id": "1777793795517",
+      "timestamp": "2026-05-03T07:36:35.517Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Started",
+      "message": "Irrigation pump was started manually."
+    },
+    {
+      "id": "1777793795001",
+      "timestamp": "2026-05-03T07:36:35.001Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Started",
+      "message": "Irrigation pump was started manually."
+    },
+    {
+      "id": "1777793794121",
+      "timestamp": "2026-05-03T07:36:34.121Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Started",
+      "message": "Irrigation pump was started manually."
+    },
+    {
+      "id": "1777792830500",
+      "timestamp": "2026-05-03T07:20:30.500Z",
+      "isRead": false,
+      "type": "info",
+      "title": "Pump Stopped",
+      "message": "Irrigation pump was stopped."
+    },
+    {
+      "id": "1777792830492",
+      "timestamp": "2026-05-03T07:20:30.492Z",
+      "isRead": false,
+      "type": "warning",
+      "title": "Soil Moisture Low",
+      "message": "Soil moisture is 24%, below the 30% irrigation threshold."
+    },
+    {
+      "id": "1",
+      "type": "critical",
+      "title": "Soil Moisture Low",
+      "message": "Soil moisture is below the threshold (20%).",
+      "timestamp": "2026-05-03T07:18:30.403Z",
+      "isRead": false
+    },
+    {
+      "id": "2",
+      "type": "warning",
+      "title": "Battery Level Medium",
+      "message": "Battery level is below 50%.",
+      "timestamp": "2026-05-03T04:20:30.403Z",
+      "isRead": false
+    },
+    {
+      "id": "3",
+      "type": "info",
+      "title": "Irrigation Completed",
+      "message": "Scheduled irrigation completed.",
+      "timestamp": "2026-05-02T07:20:30.403Z",
+      "isRead": true
+    }
+  ],
+  "history": [
+    {
+      "date": "May 1",
+      "soilMoisture": 28,
+      "temperature": 25,
+      "humidity": 55,
+      "pumpUsage": 45
+    },
+    {
+      "date": "May 2",
+      "soilMoisture": 32,
+      "temperature": 26,
+      "humidity": 58,
+      "pumpUsage": 35
+    },
+    {
+      "date": "May 3",
+      "soilMoisture": 35,
+      "temperature": 27,
+      "humidity": 60,
+      "pumpUsage": 40
+    },
+    {
+      "date": "May 4",
+      "soilMoisture": 30,
+      "temperature": 28,
+      "humidity": 62,
+      "pumpUsage": 50
+    },
+    {
+      "date": "May 5",
+      "soilMoisture": 25,
+      "temperature": 27.5,
+      "humidity": 58,
+      "pumpUsage": 55
+    },
+    {
+      "date": "May 6",
+      "soilMoisture": 32,
+      "temperature": 26.5,
+      "humidity": 59,
+      "pumpUsage": 38
+    },
+    {
+      "date": "May 7",
+      "soilMoisture": 38,
+      "temperature": 25.5,
+      "humidity": 57,
+      "pumpUsage": 25
+    }
+  ]
+}

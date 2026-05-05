@@ -1,0 +1,27 @@
+{
+  "name": "agrismart-backend",
+  "version": "1.0.0",
+  "description": "REST backend for the AgriSmart irrigation and crop recommendation dashboard.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "check": "node --check src/env.js && node --check src/server.js && node --check src/store.js && node --check src/recommendationEngine.js && node --check scripts/mysql.js && node --check scripts/setup-db.js && node --check scripts/verify-db.js",
+    "db:setup": "node scripts/setup-db.js",
+    "db:verify": "node scripts/verify-db.js"
+  },
+  "keywords": [
+    "agrismart",
+    "irrigation",
+    "esp32",
+    "crop-recommendation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mysql2": "^3.11.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
